@@ -6,7 +6,7 @@ import React from 'react';
 interface SidebarItemProps {
     icon: LucideIcon;
     label: string;
-    herf: string;
+    href: string;
 }
 
 const SidebarItem = (props: SidebarItemProps) => {
