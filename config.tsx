@@ -1,17 +1,24 @@
 const config = {
-    
-    const guestRoutes = [
+
+    guestRoutes: [
         {
+            href: '/dashboard',
+            label: 'Dashboard',
             icon: Layout,
-            label: "Dashboard",
-            herf: "/",
         },
         {
-            icon: Campass,
-            label: "Browse",
-            herf: "/search",
+            href: '/login',
+            label: 'Login',
+            icon: 'login'
+        },
+        {
+            href: '/register',
+            label: 'Register',
+            icon: 'register'
         }
-    ];
-}
+    ],
+
+
+};
 
 export { config };
