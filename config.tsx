@@ -1,20 +1,17 @@
+import { Compass, Layout } from "lucide-react";
+
 const config = {
 
     guestRoutes: [
         {
-            href: '/dashboard',
+            href: '/',
             label: 'Dashboard',
-            icon: Layout,
+            icon: Layout
         },
         {
             href: '/login',
             label: 'Login',
-            icon: 'login'
-        },
-        {
-            href: '/register',
-            label: 'Register',
-            icon: 'register'
+            icon: Compass
         }
     ],
 
