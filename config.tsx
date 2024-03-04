@@ -9,8 +9,8 @@ const config = {
             icon: Layout
         },
         {
-            href: '/login',
-            label: 'Login',
+            href: '/search',
+            label: 'Browse',
             icon: Compass
         }
     ],
